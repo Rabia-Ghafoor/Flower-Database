@@ -7,9 +7,10 @@ import jakarta.persistence.Table;
 import java.util.Objects;
 
 @Entity
-@Table(schema = "lectures", name="customers")
+@Table(schema = "customers", name="flowers")
 public final class Customer {
     @Id
+
     private  String username;
     private  String password;
     private  String email;
@@ -24,6 +25,7 @@ public final class Customer {
         this.password = password;
         this.email = email;
     }
+
 
     public String getUsername() {
         return username;
@@ -49,3 +51,4 @@ public final class Customer {
         this.email = email;
     }
 }
+

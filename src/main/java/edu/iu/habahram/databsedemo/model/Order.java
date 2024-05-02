@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 import java.util.Date;
 
 @Entity
-@Table(schema = "lectures", name="orders")
+@Table(schema = "order-name", name="orders")
 public class Order {
     @Id
     @GeneratedValue
@@ -62,4 +62,6 @@ public class Order {
     public void setCustomerUserName(String customerUserName) {
         this.customerUserName = customerUserName;
     }
+
+
 }
