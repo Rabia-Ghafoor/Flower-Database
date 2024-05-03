@@ -37,7 +37,7 @@ jobs:
 
       - name: Build and push the image
         run: |
-          docker login --username hbahramian --password ${{secrets.ACCESS_TOKEN}} ghcr.io
-          docker build -t ghcr.io/hbahramian/database-demo:latest --file Dockerfile .  
-          docker push ghcr.io/hbahramian/database-demo:latest 
+          docker login --username rabia-ghafoor --password ${{secrets.ACCESS_TOKEN}} ghcr.io
+          docker build -t ghcr.io/rabia-ghafoor/flowershop:latest --file Dockerfile .  
+          docker push ghcr.io/rabia-ghafoor/flowershop:latest 
 

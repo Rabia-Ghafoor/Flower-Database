@@ -1,4 +1,4 @@
-package edu.iu.habahram.databsedemo.model;
+package edu.iu.habahram.finalproject.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(schema = "orderitems", name = "flowers")
+@Table(schema = "flowers", name = "guitars")
 public class OrderItems {
 
     @Id

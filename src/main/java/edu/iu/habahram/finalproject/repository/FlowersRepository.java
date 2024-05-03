@@ -1,11 +1,8 @@
-package edu.iu.habahram.databsedemo.repository;
+package edu.iu.habahram.finalproject.repository;
 
-import edu.iu.habahram.databsedemo.model.Flower;
-import edu.iu.habahram.databsedemo.model.Order;
+import edu.iu.habahram.finalproject.model.Flower;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 @Repository
 public interface FlowersRepository

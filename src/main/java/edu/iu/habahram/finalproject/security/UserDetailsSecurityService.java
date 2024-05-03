@@ -1,7 +1,7 @@
-package edu.iu.habahram.databsedemo.security;
+package edu.iu.habahram.finalproject.security;
 
-import edu.iu.habahram.databsedemo.model.Customer;
-import edu.iu.habahram.databsedemo.repository.CustomerRepository;
+import edu.iu.habahram.finalproject.model.Customer;
+import edu.iu.habahram.finalproject.repository.CustomerRepository;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

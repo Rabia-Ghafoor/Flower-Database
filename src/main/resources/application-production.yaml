@@ -1,12 +1,10 @@
 spring:
   datasource:
-    url: jdbc:postgresql://${database_host}/${database_name}
-    username: ${database_username}
-    password: ${database_password}
-
+    url: jdbc:postgresql://dpg-cokkli0cmk4c739h1c50-a.ohio-postgres.render.com/ducks_wt5u
+    username: ducks_wt5u_user
+    password: Wn93tUSYeukaXaKQEfPKiDNmUco84PA5
 
   jpa:
-    show-sql: true
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
@@ -15,14 +13,12 @@ spring:
     init:
       mode: always
 
+
 server:
   port: 8080
   tomcat:
     accesslog:
       enabled: true
-
-
-
 
 
 

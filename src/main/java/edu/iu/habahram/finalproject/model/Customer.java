@@ -1,4 +1,4 @@
-package edu.iu.habahram.databsedemo.model;
+package edu.iu.habahram.finalproject.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 import java.util.Objects;
 
 @Entity
-@Table(schema = "customers", name="flowers")
+@Table(schema = "flowers", name="guitars")
 public final class Customer {
     @Id
 

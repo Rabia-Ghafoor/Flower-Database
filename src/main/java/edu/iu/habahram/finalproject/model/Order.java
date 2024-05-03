@@ -1,4 +1,4 @@
-package edu.iu.habahram.databsedemo.model;
+package edu.iu.habahram.finalproject.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 import java.util.Date;
 
 @Entity
-@Table(schema = "order-name", name="orders")
+@Table(schema = "flowers", name="guitars")
 public class Order {
     @Id
     @GeneratedValue

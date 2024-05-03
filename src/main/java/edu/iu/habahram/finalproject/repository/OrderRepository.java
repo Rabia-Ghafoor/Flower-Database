@@ -1,7 +1,6 @@
-package edu.iu.habahram.databsedemo.repository;
+package edu.iu.habahram.finalproject.repository;
 
-import edu.iu.habahram.databsedemo.model.Customer;
-import edu.iu.habahram.databsedemo.model.Order;
+import edu.iu.habahram.finalproject.model.Order;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.QueryByExampleExecutor;
 import org.springframework.stereotype.Repository;

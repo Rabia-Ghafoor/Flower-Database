@@ -1,8 +1,7 @@
 package edu.iu.habahram.databsedemo.services;
 
-import edu.iu.habahram.databsedemo.model.Order;
-import edu.iu.habahram.databsedemo.repository.OrderRepository;
-import org.aspectj.lang.annotation.After;
+import edu.iu.habahram.finalproject.model.Order;
+import edu.iu.habahram.finalproject.services.OrderService;
 import org.junit.Assert;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +12,6 @@ import org.testcontainers.containers.PostgreSQLContainer;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class OrderServiceTest {

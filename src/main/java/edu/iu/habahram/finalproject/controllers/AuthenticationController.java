@@ -1,9 +1,8 @@
-package edu.iu.habahram.databsedemo.controllers;
+package edu.iu.habahram.finalproject.controllers;
 
-
-import edu.iu.habahram.databsedemo.model.Customer;
-import edu.iu.habahram.databsedemo.repository.CustomerRepository;
-import edu.iu.habahram.databsedemo.security.TokenService;
+import edu.iu.habahram.finalproject.model.Customer;
+import edu.iu.habahram.finalproject.repository.CustomerRepository;
+import edu.iu.habahram.finalproject.security.TokenService;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

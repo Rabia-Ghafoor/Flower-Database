@@ -1,13 +1,13 @@
-package edu.iu.habahram.databsedemo;
+package edu.iu.habahram.finalproject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DatabseDemoApplication {
+public class FinalProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DatabseDemoApplication.class, args);
+		SpringApplication.run(FinalProjectApplication.class, args);
 	}
 
 }
