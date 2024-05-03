@@ -1,28 +1,29 @@
 services:
-  demo-database:
+  flower-final-project:
     image: postgres:alpine
-    container_name: flower-shop
+    container_name: project-flower-shops
     ports:
-      - "6001:5432"
+      - "6003:5432"
     environment:
       POSTGRES_USERNAME: postgres
       POSTGRES_PASSWORD: password
       POSTGRES_DB: guitars
 
-  database-demo-service:
-    image: flower-shop
+  flower-finalproject:
+    image: flower-shops
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: flower-shop
+    container_name: flower-shops
     ports:
-      - "6002:8085"
+      - "6003:8083"
     environment:
-      - server.port=8085
-      - spring.datasource.url=jdbc:postgresql://demo-database:5432/spring-2024
+      - server.port=8083
+      - spring.datasource.url=jdbc:postgresql://demo-database:5432/guitars
       - spring.datasource.username=postgres
       - spring.datasource.password=password
     restart: "no"
     depends_on:
-      - demo-database
+      - flower-final-project
+
 

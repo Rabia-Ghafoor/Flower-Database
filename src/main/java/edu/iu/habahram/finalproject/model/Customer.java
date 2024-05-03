@@ -50,5 +50,14 @@ public final class Customer {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Customer)) return false;
+        Customer customer = (Customer) o;
+        return Objects.equals(getUsername(), customer.getUsername()) && Objects.equals(getPassword(), customer.getPassword()) && Objects.equals(getEmail(), customer.getEmail());
+    }
+
 }
 
